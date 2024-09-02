@@ -20,11 +20,12 @@ function Dashboard() {
     if (!login) {
       MainAxios.get("/user/authCheck")
         .then((res) => {
-          
+            console.log("useeefect");
           if (res.data.authenticated) {
             setAccountInfo(res.data.Info);
             setLogin(true);
           } else {
+            console.log("loggiiin");
             navigate("/login");
           }
         })
