@@ -39,7 +39,7 @@ const Signin = () => {
     setLoading(true);
     MainAxios.post("/user/login", user)
       .then((res) => {
-        console.log("teesppt);
+        console.log("teest");
         setLoading(false);
         if (res.data.login) {
           navigate("/");
