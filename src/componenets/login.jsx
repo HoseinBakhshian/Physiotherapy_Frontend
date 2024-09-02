@@ -16,7 +16,7 @@ const Signin = () => {
     MainAxios.get("/user/authCheck")
     .then((res) => {   
       if (res.data.authenticated) {
-        navigate("/");
+        navigate("./");
       }
     })
     .catch((err) => {
