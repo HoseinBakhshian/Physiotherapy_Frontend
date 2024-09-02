@@ -39,10 +39,11 @@ const Signin = () => {
     setLoading(true);
     MainAxios.post("/user/login", user)
       .then((res) => {
-        console.log("teest");
+        console.log("in then");
         setLoading(false);
         if (res.data.login) {
-          navigate("/");
+          console.log("login true");
+          navigate("./");
         } else {
           swal(res.data.mess, "", "error");
         }
