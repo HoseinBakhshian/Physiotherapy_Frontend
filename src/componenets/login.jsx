@@ -43,7 +43,7 @@ const Signin = () => {
         setLoading(false);
         if (res.data.login) {
           console.log("login true");
-          navigate("./");
+          navigate("/");
         } else {
           swal(res.data.mess, "", "error");
         }
