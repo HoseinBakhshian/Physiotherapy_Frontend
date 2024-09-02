@@ -1,0 +1,26 @@
+#register {
+  height: 100vh;
+  min-height: 700px;
+  height: 100vh;
+  min-height: 500px;
+
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: auto;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.required {
+  color: red;
+  margin-left: 2px;
+}
+
+#PasswordChecklist span{
+  color: black !important;
+  margin-right: 3px;
+}

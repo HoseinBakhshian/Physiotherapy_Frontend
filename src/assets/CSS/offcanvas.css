@@ -1,0 +1,40 @@
+@font-face {
+  font-family: iran_sans;
+  src: url("../fonts/IranianSans.ttf");
+}
+
+#offcanvas-list > ul > li {
+  cursor: pointer;
+  line-height: 30px;
+  color: white !important;
+  margin-top: 2px;
+  font-weight: 500 !important;
+}
+#offcanvas-list > ul > li > a {
+  font-family: iran_sans !important;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: black;
+}
+
+#offcanvas-list > ul > li:hover {
+  background-color: rgb(255, 185, 51,0.3);
+
+}
+
+#offcanvas_btn > div {
+  width: 30px;
+  height: 3px;
+  margin: 8px 0;
+  background-color: white;
+}
+
+#offcanvas_btn:hover > div {
+  opacity: 0.8;
+}
+
+.offcanvas_active {
+  background-color: #ffb933;
+  color: white !important;
+}

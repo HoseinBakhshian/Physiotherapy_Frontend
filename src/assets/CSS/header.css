@@ -1,0 +1,64 @@
+@font-face {
+  font-family: changa;
+  src: url("../fonts/Changa.ttf");
+}
+
+#nav {
+  position: sticky;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  padding: 0 30px;
+  z-index: 2;
+
+  background-image: url("../images/b2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav_icon_wrapper {
+  text-align: left;
+  padding-left: 5px;
+  height: 100%;
+}
+
+.nav_icon_wrapper > img {
+  width: 55px;
+  height: 55px;
+}
+
+.nav_icon_text {
+  margin-left: 5px;
+  padding-left: 5px;
+  display: block;
+  color: #e3e3e3;
+  font-family: changa !important;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#offcanvas_btn > div {
+  width: 30px;
+  height: 3px;
+  margin: 8px 0;
+  background-color: white;
+}
+
+#offcanvas_btn:hover > div {
+  opacity: 0.8;
+}
+
+li > * {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li > *:hover {
+  color: #ffb933;
+}
+
+.navbar_active {
+  color: #ffb933;
+}

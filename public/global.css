@@ -1,0 +1,114 @@
+@font-face {
+  font-family: iran_sans;
+  src: url("../fonts/IranianSans.ttf");
+}
+
+@font-face {
+  font-family: changa;
+  src: url("../fonts/Changa.ttf");
+}
+
+
+@font-face {
+  font-family: shabnam;
+  src: url("../fonts/Shabnam.ttf");
+}
+
+.font-custom1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-custom2 {
+  font-family:  iran_sans !important;
+}
+
+
+.font-custom3 {
+  font-family:  shabnam !important;
+}
+
+
+
+* {
+  font-family: iran_sans;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*:not(.showScroll)::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+*:not(.showScroll) {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* width */
+*::-webkit-scrollbar {
+  height: 12px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #555;
+}
+
+/* .uneditable-input:focus, */
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="file"]:focus,
+input[type="color"]:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus,
+select:focus,
+option:focus,
+textarea:focus,
+button:focus {
+  box-shadow: none !important;
+  /* border-color: blueviolet !important; */
+}
+
+
+
+
+
+.rmdp-time-picker input {
+  width: 40px !important;
+
+}
+
+
+.custom-hover{
+  border-bottom: 3px solid transparent !important;
+  border-top: 3px solid transparent !important;
+}
+
+.custom-hover:hover{
+  border-bottom: 3px solid #ffb933 !important;
+}
+
+
+.custom-hover1:hover{
+  color: #ffb933;
+}

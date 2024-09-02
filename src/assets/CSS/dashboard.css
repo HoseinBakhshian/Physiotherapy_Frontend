@@ -1,0 +1,14 @@
+#dashboard {
+  height: 100vh;
+  min-height: 500px;
+
+  background-image: url("../images/b1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+/* #dashboard::-webkit-scrollbar {
+    display: none !important;
+  } */

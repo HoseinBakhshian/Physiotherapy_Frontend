@@ -1,0 +1,27 @@
+#archive{
+    min-height: 600px !important;
+    /* overflow: hidden; */
+    /* background-color: blueviolet; */
+}
+
+#more{
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+#more:hover{
+    color: #ffb933 ;
+  
+}
+
+.selected-filter{
+    border-bottom: 3px solid #ffb933 !important;
+}
+
+
+
+/* #tableWrapper{
+    min-height: 300px !important;
+} */
+
