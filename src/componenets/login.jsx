@@ -16,7 +16,7 @@ const Signin = () => {
     MainAxios.get("/user/authCheck")
     .then((res) => {   
       if (res.data.authenticated) {
-        navigate("./");
+        navigate("/");
       }
     })
     .catch((err) => {
@@ -39,6 +39,7 @@ const Signin = () => {
     setLoading(true);
     MainAxios.post("/user/login", user)
       .then((res) => {
+        console.log("teest);
         setLoading(false);
         if (res.data.login) {
           navigate("/");
